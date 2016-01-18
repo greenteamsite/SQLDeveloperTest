@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[AppUsers]
+(
+	[AppUserId] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Name] NVARCHAR(100) NULL
+)
